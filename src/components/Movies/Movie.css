@@ -1,0 +1,44 @@
+.movie {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 180px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.movie div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.movie img {
+  border-radius: 5px 5px 0 0;
+  width: 180px;
+  height: 220px;
+}
+
+.rating,
+.name,
+.language {
+  margin: 1px 0 0 10px;
+}
+
+.language {
+  font-size: 0.8rem;
+}
+
+.view-link {
+  margin: 10px;
+}
+
+.view-btn {
+  border-radius: 3px;
+  padding: 8px 40px;
+  background-color: black;
+  color: white;
+  border: none;
+}
